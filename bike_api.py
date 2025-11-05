@@ -25,7 +25,6 @@ def _api_call():
     response = requests.get(url, headers=headers, timeout=timeout)
 
     if response.status_code == 200:
-        print('Successfully connected')
         today = datetime.today()
         today_json = {'today' : str(today)}
         try:
@@ -36,11 +35,11 @@ def _api_call():
             bikepoint.update(today_json)
         return response_json, today
     elif response.status_code in retry_status_codes:
-        raise Exception(f'API error: status code {response.reason}')
+        raise Exception(f'API error: status code {response.reason}') # retry
     else:
-        raise Exception(f'Not retrying due to some other error: {response.reason}') # stops retries
+        raise Exception(f'Not retrying due to some other error: {response.reason} - {response.status_code}') # stops retries
 
-def api_call_with_retries():
+def api_call_with_retries():    
 
     """ main function to call the API and save returned JSON. 
     Under certain response status errors, will retry after waiting.
@@ -50,17 +49,21 @@ def api_call_with_retries():
         try:
             data, today = _api_call()
             file_path = _save_file(data, today)
+            # need to add logging
             print(f'Successfully saved data into {file_path}')
             return data
         except Exception as e:
             print(f'Attempt {attempt} failed: {e}')
             if str(e) == 'File is not a json' or str(e).startswith('Not retrying due to some other error'):
+                # need to add logging
                 print(e)
                 break
             elif attempt < num_tries:
+                # need to add logging
                 print(f'Retrying in {wait_time} seconds...')
                 time.sleep(wait_time)
             else:
+                # need to add logging
                 raise Exception(f'Failed to connect after multiple attempts')
 
 data = api_call_with_retries()
