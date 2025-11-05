@@ -36,7 +36,7 @@ def _api_call():
             raise Exception('File is not a json') # stops retries
         return response_json, today
     elif response.status_code in retry_status_codes:
-        raise Exception(f'API error: status code {response.reason}') # retry
+        raise Exception(f'API error: status code {response.reason}') # retry for certain status codes
     else:
         raise Exception(f'Not retrying due to some other error: {response.reason} - {response.status_code}') # stops retries
 
