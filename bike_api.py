@@ -11,7 +11,7 @@ headers = {
 
 url = 'https://api.tfl.gov.uk/BikePoint/'
 timeout = 10
-num_tries = 50
+num_tries = 3
 wait_time = 5
 retry_status_codes = [408, 500]
 
@@ -24,18 +24,22 @@ def _save_file(data: json, today: datetime):
 def _api_call():
     response = requests.get(url, headers=headers, timeout=timeout)
 
-    if response.status_code == 200:
+    if response and response.status_code == 200:
         print('Successfully connected')
         today = datetime.today()
         today_json = {'today' : str(today)}
-        response_json = response.json()
+        try:
+            response_json = response.json()
+        except:
+            raise Exception('File is not a json')
         for bikepoint in response_json:
             bikepoint.update(today_json)
         return response_json, today
     elif response.status_code in retry_status_codes:
-        raise Exception(f'API error: status code {response.status_code}')
+        raise Exception(f'API error: status code {response.reason}')
     else:
         print('Failed to connect')
+        
 
 def api_call_with_retries():
 
@@ -46,12 +50,16 @@ def api_call_with_retries():
             print(f'Successfully saved data into {file_path}')
             return data
         except Exception as e:
+            if e == 'File is not a json':
+                break
             print(f'Attempt {attempt} failed: {e}')
             if attempt < num_tries:
                 print(f'Retrying in {wait_time} seconds...')
                 time.sleep(wait_time)
             else:
                 raise Exception(f'Failed to connect after {num_tries} attempts') from e
+        except:
+            print('Failed to connect')
 
 
 data = api_call_with_retries()
