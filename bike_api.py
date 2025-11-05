@@ -57,7 +57,7 @@ def api_call_with_retries():
                 print(f'Retrying in {wait_time} seconds...')
                 time.sleep(wait_time)
             else:
-                raise Exception(f'Failed to connect after {num_tries} attempts') from e
+                raise Exception(f'Failed to connect after multiple attempts')
         except:
             print('Failed to connect')
 
