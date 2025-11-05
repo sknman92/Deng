@@ -3,7 +3,6 @@ import requests
 import time
 import json
 from datetime import datetime
-import logging
 
 headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
@@ -28,10 +27,10 @@ def _api_call():
         print('Successfully connected')
         today = datetime.today()
         today_json = {'today' : str(today)}
-        try:
-            response_json = response.json()
-        except:
-            raise Exception('File is not a json')
+        #try:
+        response_json = response.json()
+        #except:
+        #    raise Exception('File is not a json')
         for bikepoint in response_json:
             bikepoint.update(today_json)
         return response_json, today
@@ -39,7 +38,6 @@ def _api_call():
         raise Exception(f'API error: status code {response.reason}')
     else:
         print('Failed to connect')
-        
 
 def api_call_with_retries():
 
