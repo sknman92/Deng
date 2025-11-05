@@ -9,7 +9,7 @@ headers = {
             ' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
         }
 
-url = 'https://api.tfl.gov.uk/BikePont/'
+url = 'https://api.tfl.gov.uk/BikePoint/'
 timeout = 10
 num_tries = 3
 wait_time = 5
@@ -27,12 +27,13 @@ def _api_call():
     if response.status_code == 200:
         today = datetime.today()
         today_json = {'today' : str(today)}
-        try:
-            response_json = response.json()
-        except:
-            raise Exception('File is not a json') # stops retries
         for bikepoint in response_json:
             bikepoint.update(today_json)
+        try:
+            response_json = response.json()
+            print(response_json)
+        except:
+            raise Exception('File is not a json') # stops retries
         return response_json, today
     elif response.status_code in retry_status_codes:
         raise Exception(f'API error: status code {response.reason}') # retry
