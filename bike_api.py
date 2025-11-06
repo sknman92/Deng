@@ -4,6 +4,9 @@ import time
 import json
 from datetime import datetime
 
+
+
+# setting variables for API call
 headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
             ' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
@@ -26,12 +29,11 @@ def _api_call():
 
     if response.status_code == 200:
         today = datetime.today()
-        today_json = {'today' : str(today)}
-        for bikepoint in response_json:
-            bikepoint.update(today_json)
+        today_json = {'extract_time' : str(today)}
         try:
             response_json = response.json()
-            print(response_json)
+            for bikepoint in response_json:
+                bikepoint.update(today_json)
         except:
             raise Exception('File is not a json') # stops retries
         return response_json, today
@@ -67,11 +69,8 @@ def api_call_with_retries():
                 # need to add logging
                 raise Exception(f'Failed to connect after multiple attempts')
 
-data = api_call_with_retries()
-
-
-
-
+if __name__ == '__main__':
+    data = api_call_with_retries()
 
 
 
