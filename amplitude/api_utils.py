@@ -18,7 +18,7 @@ headers = {
         }
 
 # function for making amp call w. exception handling
-def _amp_api_call(url, file_name, retry_status_codes, **kwargs):
+def _amp_api_call(url, file_name, retry_status_codes=None, **kwargs):
     response = requests.get(url, headers=headers, 
                         params=kwargs, auth=(AMP_API_KEY, AMP_SECRET_KEY))
     if retry_status_codes == None:
@@ -31,6 +31,7 @@ def _amp_api_call(url, file_name, retry_status_codes, **kwargs):
         else:
             file_type = 'zip'
         file_path = f'data/{file_name}_{extract_time}.{file_type}'
+        #os.makedirs(file_path, exist_ok = True)
         with open(file_path, 'wb') as file:
             file.write(response.content)
         return file_path, extract_time
