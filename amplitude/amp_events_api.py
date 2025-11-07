@@ -28,7 +28,7 @@ def main_api_call(start: str = None, end: str = None):
                 end =  datetime.combine(yesterday, datetime.min.time()).replace(hour=10).strftime('%Y%m%dT%H')
             params = {'start': start,
                       'end': end}
-            file_path, extract_time = _amp_api_call('https://analytics.eu.amplitude.com/api/2/export', 'amp_data', start=start, end=end)
+            file_path, extract_time = _amp_api_call('https://analytics.eu.amplitude.com/api/2/expor', 'amp_data', start=start, end=end)
             count, final_file_path = _unzipping_amp_events(file_path, extract_time)
             logger.info(f'Saved {count} events to {final_file_path} for dt range {start} - {end}')
             print(f'Saved {count} events to {final_file_path} for dt range {start} - {end}')

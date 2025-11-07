@@ -18,7 +18,7 @@ headers = {
         }
 
 # function for making amp call w. exception handling
-def _amp_api_call(url, file_name, retry_status_codes, **kwargs):
+def _amp_api_call(url, file_name, retry_status_codes=None, **kwargs):
     response = requests.get(url, headers=headers, 
                         params=kwargs, auth=(AMP_API_KEY, AMP_SECRET_KEY))
     if retry_status_codes == None:
@@ -31,6 +31,7 @@ def _amp_api_call(url, file_name, retry_status_codes, **kwargs):
         else:
             file_type = 'zip'
         file_path = f'data/{file_name}_{extract_time}.{file_type}'
+        #os.makedirs(file_path, exist_ok = True)
         with open(file_path, 'wb') as file:
             file.write(response.content)
         return file_path, extract_time
@@ -40,7 +41,7 @@ def _amp_api_call(url, file_name, retry_status_codes, **kwargs):
         raise Exception(f'Not retrying due to some other error:{response.reason} - {response.status_code}') # stops retries
     
 def _unzipping_amp_events(file_path: str, extract_time: datetime):
-    extract_path = f'data/amp_data_extracted_{extract_time}'
+    extract_path = f'extracts/amp_data_extracted_{extract_time}'
     with zipfile.ZipFile(file_path, 'r') as zip_ref:
         zip_ref.extractall(extract_path)
     
@@ -60,16 +61,12 @@ def _unzipping_amp_events(file_path: str, extract_time: datetime):
         file_list.append(file)
 
     # looping through to write to one file
-    # renaming final file with timestamp
-    final_folder_path = f'data/amp_data_final'
-    os.makedirs(final_folder_path, exist_ok = True)
-
     count = 1
     for file in file_list:
         with gzip.open(f'{parent_folder_path}/{file}', 'rt', encoding = 'UTF-8') as f:
             # adding extract time
             extract_time = {'extract_time': str(extract_time)}
-            final_file_path = f'{final_folder_path}.json'
+            final_file_path = 'data/amp_data_final.json'
             with open(f'{final_file_path}', 'a', encoding = 'UTF-8') as final_file:
                 for line in f:
                     event = json.loads(line)
