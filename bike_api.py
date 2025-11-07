@@ -17,7 +17,7 @@ timeout = 10
 num_tries = 3
 wait_time = 5
 retry_status_codes = [408, 500]
-
+    
 def _save_file(data: json, today: datetime):
     file_path = f'data/bike_data_{today.strftime("%Y_%m_%d_T%H-%M-%S")}.json'
     with open(file_path, 'w') as file:
