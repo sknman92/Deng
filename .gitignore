@@ -1,3 +1,6 @@
-.env
-data/
-.venv
+*.env
+*.*_env
+*\data*
+*.log*
+.venv/
+../__pycache__/
