@@ -13,6 +13,8 @@ logger = logging.getLogger()
 
 url = 'https://analytics.eu.amplitude.com/api/2/events/list'
 
-_amp_api_call('https://analytics.eu.amplitude.com/api/2/events/list', 'dashboard_data')
-logger.info('Saved dashboard events')
+try:
+    _amp_api_call('https://analytics.eu.amplitude.com/api/2/events/list', 'dashboard_data')
+except Exception as e:
+    logger.error(f'Error pulling dashboard events: {e}')
 
