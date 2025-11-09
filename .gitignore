@@ -10,4 +10,4 @@
 **/data/
 
 # caching
-**__pycache__/
+**/__pycache__/
