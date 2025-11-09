@@ -2,11 +2,11 @@ import time
 from datetime import datetime, timedelta, date
 import os
 import logging
-from api_utils import _amp_api_call, _unzipping_amp_events
+from api_utils import _api_call, _saving_api_response, _unzipping_response
 
 # logging config
 logging.basicConfig(
-    filename=os.path.join(os.path.dirname(__file__), "amp.log"),
+    filename="amp.log",
     filemode = "a",
     format = "%(asctime)s - %(levelname)s - %(name)s - %(message)s",
     level=logging.INFO)
@@ -22,14 +22,15 @@ def main_api_call(start: str = None, end: str = None):
     for retry in range(1, num_tries+1):
         try:
             assert start is not None and end is not None, "Both start and end date should be provided"
+            # if start and end is not provided, default to yesterday 9-10
             if start and end is None:
                 yesterday = date.today() - timedelta(days=1)
                 start = datetime.combine(yesterday, datetime.min.time()).replace(hour=9).strftime('%Y%m%dT%H')
                 end =  datetime.combine(yesterday, datetime.min.time()).replace(hour=10).strftime('%Y%m%dT%H')
-            params = {'start': start,
-                      'end': end}
-            file_path, extract_time = _amp_api_call('https://analytics.eu.amplitude.com/api/2/expor', 'amp_data', start=start, end=end)
-            count, final_file_path = _unzipping_amp_events(file_path, extract_time)
+            response, extract_time = _api_call('https://analytics.eu.amplitude.com/api/2/export', start=start, end=end)
+            file_name = 'events_data'
+            file_path = _saving_api_response(response, file_name, extract_time)
+            count, final_file_path = _unzipping_response(file_path, file_name, extract_time)
             logger.info(f'Saved {count} events to {final_file_path} for dt range {start} - {end}')
             print(f'Saved {count} events to {final_file_path} for dt range {start} - {end}')
             break
