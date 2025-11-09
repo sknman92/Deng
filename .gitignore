@@ -1,6 +1,10 @@
-*.env
-*.*_env
-*\data*
-*.log*
+# Virtual environments
 .venv/
-../__pycache__/
+**/.amplitude_env/
+**/venv/
+
+# Environment files
+**/.env
+
+# Data directories
+**/data/
