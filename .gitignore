@@ -1,6 +1,6 @@
 # Virtual environments
 .venv/
-**/.amplitude_env/
+**/.amplitude_venv/
 **/venv/
 
 # Environment files
@@ -8,3 +8,6 @@
 
 # Data directories
 **/data/
+
+# caching
+**__pycache__/
