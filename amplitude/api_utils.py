@@ -70,7 +70,7 @@ def _unzipping_response(file_path: str, file_name: str, extract_time: datetime):
         for file in sub_folders:
             file_list.append(file)
 
-        count = 1
+        count = 0
         for file in file_list:
             with gzip.open(f'{parent_folder_path}/{file}', 'rt', encoding='UTF-8') as f:
                 extract_time_str = {'extract_time': str(extract_time)}
