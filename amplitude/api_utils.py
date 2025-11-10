@@ -51,10 +51,14 @@ def _saving_api_response(response, file_name: str, extract_time: datetime):
     return file_path
 
 def _unzipping_response(file_path: str, file_name: str, extract_time: datetime):
+    # unzipping and extract repsonse for amp events zip file
+    
+    # we want to extract zip to a temp dir
     with tempfile.TemporaryDirectory() as temp_dir:
         with zipfile.ZipFile(file_path, 'r') as zip_ref:
             zip_ref.extractall(temp_dir)
 
+        # we want to loop through all folders in extracted zip folder
         parent_folder = os.listdir(temp_dir)
         parent_folder_paths = []
         for folder in parent_folder:
@@ -70,6 +74,7 @@ def _unzipping_response(file_path: str, file_name: str, extract_time: datetime):
         for file in sub_folders:
             file_list.append(file)
 
+        # counting the number of rows extracted
         count = 0
         for file in file_list:
             with gzip.open(f'{parent_folder_path}/{file}', 'rt', encoding='UTF-8') as f:
@@ -78,6 +83,7 @@ def _unzipping_response(file_path: str, file_name: str, extract_time: datetime):
                 with open(final_file_path, 'a', encoding='UTF-8') as final_file:
                     for line in f:
                         event = json.loads(line)
+                        # we want to update each line to include extract time
                         event.update(extract_time_str)
                         final_file.write(json.dumps(event) + '\n')
                         count += 1

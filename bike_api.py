@@ -4,8 +4,6 @@ import time
 import json
 from datetime import datetime
 
-
-
 # setting variables for API call
 headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
