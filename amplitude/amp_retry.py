@@ -3,7 +3,14 @@ from datetime import datetime, timedelta, date
 import os
 import logging
 from api_utils import _api_call, _saving_api_response, _unzipping_response
-from load_utils import amp_data_load, return_s3_files, pull_missing_events
+from load_utils import amp_data_load, return_s3_files, pull_missing_events, retry
+
+# for reloading libs
+import importlib
+import api_utils
+import load_utils
+importlib.reload(api_utils)
+importlib.reload(load_utils)
 
 # logging config
 logging.basicConfig(
@@ -14,6 +21,7 @@ logging.basicConfig(
 
 logger = logging.getLogger()
 
+@retry(retries = 3, sleep = 5)
 def amp_retry_function():
     # returning all s3 files
     files = return_s3_files()
@@ -22,7 +30,7 @@ def amp_retry_function():
     ranges = pull_missing_events(files)
     
     # if missing ranges, loop through, retrive, and re-upload
-    if ranges:
+    if len(ranges) > 0:
         logger.info(f'Missing data: {ranges}')
         for r in ranges:
             try:
@@ -37,6 +45,9 @@ def amp_retry_function():
                 logger.info(f'Successfully loaded to S3')
             except Exception as e:
                 logger.error(f'AMP events retry failed: {e}')
+    else:
+        print('No missing data')
+        logger.info(f'No missing data')
 
 
 if __name__ == '__main__':

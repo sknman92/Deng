@@ -6,6 +6,19 @@ import os
 import tempfile
 import zipfile
 import gzip
+import time
+import logging
+
+# setting logger
+# logging config
+logging.basicConfig(
+    filename="amp.log",
+    filemode = "a",
+    format = "%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+    level=logging.INFO)
+
+logger = logging.getLogger()
+
 
 # loading AMP api keys
 dotenv.load_dotenv()
@@ -17,6 +30,29 @@ headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
             ' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
         }
+
+# retry decorator
+def retry_custom_exceptions(retries = 3, sleep = 5):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            for i in range(1, retries + 1):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    error = str(e)
+                    if error.startswith('Not retrying due to some other error'):
+                        logger.error(e)
+                        print(e)
+                        break
+                    elif i < retries:
+                        logger.info(f'Attempt {i} failed: {e}. Retrying in {sleep} seconds...')
+                        print(f'Attempt {i} failed: {e}. Retrying in {sleep} seconds...')
+                        time.sleep(sleep)
+                    else:
+                        logger.error(Exception('Failed to connect after multiple attempts'))
+                        raise Exception(f'Failed to connect after multiple attempts')
+        return wrapper
+    return decorator
 
 def _api_call(url: str, retry_status_codes=None, **kwargs):
     # function for making amp call w. raising custom exceptions

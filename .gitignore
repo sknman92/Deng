@@ -15,3 +15,6 @@
 
 # data engineering course work
 data_engineering_school_course/
+
+# archive scripts
+**/script_archive/

@@ -1,6 +1,6 @@
 import logging
 from api_utils import _api_call, _saving_api_response
-from load_utils import amp_data_load
+from load_utils import amp_data_load, retry
 
 # for reloading libs
 import importlib
@@ -20,6 +20,7 @@ logger = logging.getLogger()
 
 url = 'https://analytics.eu.amplitude.com/api/2/events/list'
 
+@retry(retries = 3, sleep = 5)
 def dashboard_api_call():
     try:
         response, extract_time = _api_call(url)
