@@ -3,7 +3,7 @@ name: bike_point_ingestion
 on: 
   schedule:
   # every five minutes
-    - cron: '*/5 * * * *'
+    # - cron: '*/5 * * * *'
   # allow the workflow to run manually
   workflow_dispatch:
 
