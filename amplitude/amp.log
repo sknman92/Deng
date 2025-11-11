@@ -138,3 +138,7 @@
 2025-11-11 11:01:48,777 - INFO - root - Successfully loaded to S3
 2025-11-11 13:17:21,502 - ERROR - root - Critical error:Not Found - 404
 2025-11-11 13:17:35,376 - ERROR - root - Critical error:Not Found - 404
+2025-11-11 13:17:45,801 - ERROR - root - Critical error:Not Found - 404
+2025-11-11 13:17:51,358 - ERROR - root - Critical error:Not Found - 404
+2025-11-11 13:21:00,992 - INFO - root - Saved 140 events for dt range 20251105T9 - 20251105T10
+2025-11-11 13:21:01,464 - INFO - root - Successfully loaded to S3
