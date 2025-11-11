@@ -3,6 +3,14 @@ from datetime import datetime, timedelta, date
 import os
 import logging
 from api_utils import _api_call, _saving_api_response, _unzipping_response
+from load_utils import amp_data_load
+
+# for reloading libs
+import importlib
+import api_utils
+import load_utils
+importlib.reload(api_utils)
+importlib.reload(load_utils)
 
 # logging config
 logging.basicConfig(
@@ -30,9 +38,11 @@ def main_api_call(start: str = None, end: str = None):
             response, extract_time = _api_call('https://analytics.eu.amplitude.com/api/2/export', start=start, end=end)
             file_name = 'events_data'
             file_path = _saving_api_response(response, file_name, extract_time)
-            count, final_file_path = _unzipping_response(file_path, file_name, extract_time)
-            logger.info(f'Saved {count} events to {final_file_path} for dt range {start} - {end}')
-            print(f'Saved {count} events to {final_file_path} for dt range {start} - {end}')
+            count = _unzipping_response(file_path, extract_time)
+            logger.info(f'Saved {count} events for dt range {start} - {end}')
+            print(f'Saved {count} events for dt range {start} - {end}')
+            amp_data_load()
+            logger.info(f'Successfully loaded to S3')
             break
         except Exception as e:
             error = str(e)
@@ -50,7 +60,7 @@ def main_api_call(start: str = None, end: str = None):
 
 
 if __name__ == '__main__':
-    main_api_call(start = '20251104T09', end = '20251104T10')
+    main_api_call(start = '20251105T16', end = '20251105T18')
 
 
 

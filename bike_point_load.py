@@ -19,27 +19,21 @@ try:
     # fetching list of buckets
     # nest w. try and except to test s3_client.list_objects_v2 function
     s3_client.list_objects_v2(Bucket=bucket)
+    
     files = os.listdir('data/')
-
+    
     # collating all files in directory
-    file_list = []
-    for file in files:
-        if file.endswith('.json'):
-            files_path = os.path.join('data/', file)
-            file_list.append(files_path)
+    file_list = [os.path.join('data/', file) for file in files if file.endswith('.json')]
 
     num_files = len(file_list)
-
     # check that there is file        
     if num_files > 0:
-        
-        s3_filename = files[0]
 
-        # uploading
-        s3_client.upload_file(file_list[0], bucket, s3_filename)
-
-        # removing uploaded file
-        os.remove(file_list[0])
+        # uploading and removing file
+        for file in file_list:
+            s3_filename = os.path.join('python-import', file)
+            s3_client.upload_file(file, bucket, s3_filename)
+            os.remove(file_list[0])
 
         print(f'Successfully loaded {num_files} file(s) to S3 bucket')
     

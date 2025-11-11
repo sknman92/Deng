@@ -43,14 +43,17 @@ def _saving_api_response(response, file_name: str, extract_time: datetime):
     elif 'text/csv' in content_type:
         file_type = 'csv'
 
-    file_path = f'data/{file_name}_{extract_time}.{file_type}'
+    if file_type == 'zip':
+        file_path = f'data/zip/{file_name}_{extract_time}.{file_type}'
+    elif file_type == 'json':
+        file_path = f'data/list_data.{file_type}'
     with open(file_path, 'wb') as file:
         file.write(response.content)
     
     # we want to return file path if needed for further processing
     return file_path
 
-def _unzipping_response(file_path: str, file_name: str, extract_time: datetime):
+def _unzipping_response(file_path: str, extract_time: datetime):
     # unzipping and extract repsonse for amp events zip file
     
     # we want to extract zip to a temp dir
@@ -77,10 +80,10 @@ def _unzipping_response(file_path: str, file_name: str, extract_time: datetime):
         # counting the number of rows extracted
         count = 0
         for file in file_list:
-            with gzip.open(f'{parent_folder_path}/{file}', 'rt', encoding='UTF-8') as f:
+            file_path = f'{parent_folder_path}/{file}'
+            with gzip.open(file_path, 'rt', encoding='UTF-8') as f:
                 extract_time_str = {'extract_time': str(extract_time)}
-                final_file_path = f'data/{file_name}_{extract_time}.json'
-                with open(final_file_path, 'a', encoding='UTF-8') as final_file:
+                with open(f'data/{file}.json', 'a', encoding='UTF-8') as final_file:
                     for line in f:
                         event = json.loads(line)
                         # we want to update each line to include extract time
@@ -88,4 +91,4 @@ def _unzipping_response(file_path: str, file_name: str, extract_time: datetime):
                         final_file.write(json.dumps(event) + '\n')
                         count += 1
 
-    return count, final_file_path
+    return count

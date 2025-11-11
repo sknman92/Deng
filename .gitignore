@@ -5,9 +5,13 @@
 
 # Environment files
 **/.env
+**/.aws_env
 
 # Data directories
 **/data/
 
 # caching
 **/__pycache__/
+
+# data engineering course work
+data_engineering_school_course/
