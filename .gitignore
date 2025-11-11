@@ -18,3 +18,7 @@ data_engineering_school_course/
 
 # archive scripts
 **/script_archive/
+
+# loggings
+**/amp.log
+**/bike.log
