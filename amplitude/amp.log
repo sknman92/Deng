@@ -136,3 +136,5 @@
 2025-11-11 11:01:46,106 - INFO - root - Missing data: [{'start': '20251105T11', 'end': '20251105T15'}]
 2025-11-11 11:01:48,151 - INFO - root - Saved 614 events for dt range 20251105T11 - 20251105T15
 2025-11-11 11:01:48,777 - INFO - root - Successfully loaded to S3
+2025-11-11 13:17:21,502 - ERROR - root - Critical error:Not Found - 404
+2025-11-11 13:17:35,376 - ERROR - root - Critical error:Not Found - 404

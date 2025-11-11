@@ -40,7 +40,7 @@ def retry_custom_exceptions(retries = 3, sleep = 5):
                     return func(*args, **kwargs)
                 except Exception as e:
                     error = str(e)
-                    if error.startswith('Not retrying due to some other error'):
+                    if error.startswith('Critical error'):
                         logger.error(e)
                         print(e)
                         break
