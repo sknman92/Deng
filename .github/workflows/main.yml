@@ -28,5 +28,5 @@ jobs:
           aws_access_key: ${{secrets.AWS_ACCESS_KEY}}
           aws_secret_key: ${{secrets.AWS_SECRET_KEY}}
           bucket_name: ${{secrets.BUCKET_NAME}}
-        run: python main.py
+        run: python combined_bike_api.py
       
