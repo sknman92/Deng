@@ -123,3 +123,16 @@
 2025-11-10 20:20:23,851 - INFO - root - Successfully loaded to S3
 2025-11-10 20:22:41,240 - INFO - root - Successfully saved list data: extracted 2025_11_10_T20-22-40
 2025-11-10 20:22:41,812 - INFO - root - Successfully loaded events list data to S3
+2025-11-11 09:56:18,960 - INFO - root - Saved 364 events for dt range 20251105T16 - 20251105T18
+2025-11-11 09:56:19,749 - INFO - root - Successfully loaded to S3
+2025-11-11 10:15:38,739 - INFO - root - No missing data
+2025-11-11 10:24:06,497 - INFO - root - Saved 364 events for dt range 20251105T16 - 20251105T18
+2025-11-11 10:24:07,286 - INFO - root - Successfully loaded to S3
+2025-11-11 10:24:14,841 - INFO - root - Attempt 1 failed: Critical error:Not Found - 404. Retrying in 5 seconds...
+2025-11-11 10:24:20,194 - INFO - root - Attempt 2 failed: Critical error:Not Found - 404. Retrying in 5 seconds...
+2025-11-11 10:24:25,499 - ERROR - root - Failed to connect after multiple attempts
+2025-11-11 11:01:04,226 - INFO - root - Saved 140 events for dt range 20251105T9 - 20251105T10
+2025-11-11 11:01:04,889 - INFO - root - Successfully loaded to S3
+2025-11-11 11:01:46,106 - INFO - root - Missing data: [{'start': '20251105T11', 'end': '20251105T15'}]
+2025-11-11 11:01:48,151 - INFO - root - Saved 614 events for dt range 20251105T11 - 20251105T15
+2025-11-11 11:01:48,777 - INFO - root - Successfully loaded to S3

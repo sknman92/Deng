@@ -3,6 +3,7 @@ import os
 import boto3
 import re
 from datetime import datetime, timedelta
+import time
 
 # loading env var
 dotenv.load_dotenv()
@@ -16,7 +17,23 @@ s3_client = boto3.client(
 , aws_access_key_id = aws_key
 , aws_secret_access_key=aws_secret_key
 )
-    
+
+# retry decorator
+def retry(retries = 3, sleep = 5):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            for i in range(1, retries + 1):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    print(f'Retry {i} failed')
+                    # raising last exception captured
+                    exception = e
+                    time.sleep(sleep)
+            raise exception
+        return wrapper
+    return decorator
+
 def amp_data_load():
 
     try:
@@ -116,6 +133,8 @@ def pull_missing_events(files):
                     'end' : end_formatted}
         ranges.append(range_dict)
 
-    return ranges
-
+        return ranges
+    
+    else:
+        return []
 
