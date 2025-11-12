@@ -49,8 +49,8 @@ def retry_custom_exceptions(retries = 3, sleep = 5):
                         print(f'Attempt {i} failed: {e}. Retrying in {sleep} seconds...')
                         time.sleep(sleep)
                     else:
-                        logger.error(Exception('Failed to connect after multiple attempts'))
-                        raise Exception(f'Failed to connect after multiple attempts')
+                        logger.error(Exception(f'Failed to connect after multiple attempts: {e}'))
+                        raise Exception(f'Failed to connect after multiple attempts: {e}')
         return wrapper
     return decorator
 
