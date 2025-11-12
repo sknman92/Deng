@@ -11,7 +11,7 @@ bucket=os.getenv('BUCKET_NAME')
 # creating s3 client
 s3_client = boto3.client(
     's3'
-    , aws_access_key_id = aws_key
+    , aws_access_key_id=aws_key
     , aws_secret_access_key=aws_secret_key
 )
 
@@ -19,7 +19,7 @@ def bike_load():
     try:
         # fetching list of buckets
         # nest w. try and except to test s3_client.list_objects_v2 function
-        #3_client.list_objects_v2(Bucket=bucket)
+        s3_client.list_objects_v2(Bucket=bucket)
         
         files = os.listdir('data/')
         

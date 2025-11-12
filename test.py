@@ -1,13 +1,11 @@
-def add():
-    return 1+2
-
-
-def test_dec(func):
+def decorator(func):
     def wrapper():
         return func()
-    
     return wrapper
 
 
-@test_dec
-result = add()
+def test_func():
+    return 1+1
+
+decorator(test_func)
+        
