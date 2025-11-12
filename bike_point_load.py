@@ -6,7 +6,7 @@ import boto3
 dotenv.load_dotenv()
 aws_key = os.getenv('AWS_ACCESS_KEY')
 aws_secret_key = os.getenv('AWS_SECRET_KEY')
-bucket=os.getenv('bucket_name')
+bucket=os.getenv('BUCKET_NAME')
 
 # creating s3 client
 s3_client = boto3.client(
