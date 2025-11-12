@@ -19,7 +19,7 @@ def bike_load():
     try:
         # fetching list of buckets
         # nest w. try and except to test s3_client.list_objects_v2 function
-        s3_client.list_objects_v2(Bucket=bucket)
+        #3_client.list_objects_v2(Bucket=bucket)
         
         files = os.listdir('data/')
         
