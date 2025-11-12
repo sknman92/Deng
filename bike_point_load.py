@@ -7,12 +7,11 @@ dotenv.load_dotenv()
 aws_key = os.getenv('AWS_ACCESS_KEY')
 aws_secret_key = os.getenv('AWS_SECRET_KEY')
 bucket=os.getenv('BUCKET_NAME')
-print(bucket)
 
 # creating s3 client
 s3_client = boto3.client(
     's3'
-    , aws_access_key_id=aws_key
+    , aws_access_key_id=aws_key 
     , aws_secret_access_key=aws_secret_key
 )
 
