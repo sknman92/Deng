@@ -142,3 +142,9 @@
 2025-11-11 13:17:51,358 - ERROR - root - Critical error:Not Found - 404
 2025-11-11 13:21:00,992 - INFO - root - Saved 140 events for dt range 20251105T9 - 20251105T10
 2025-11-11 13:21:01,464 - INFO - root - Successfully loaded to S3
+2025-11-12 15:03:05,041 - ERROR - root - Critical error:Forbidden - 403
+2025-11-12 15:03:25,224 - ERROR - root - Critical error:Forbidden - 403
+2025-11-12 15:07:09,716 - ERROR - root - Critical error:Forbidden - 403
+2025-11-12 15:13:41,705 - ERROR - root - Critical error:Forbidden - 403
+2025-11-12 15:13:56,923 - ERROR - root - Critical error:Forbidden - 403
+2025-11-13 09:11:34,282 - ERROR - root - Critical error:Forbidden - 403

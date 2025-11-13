@@ -28,7 +28,7 @@ def main_api_call(start: str = None, end: str = None):
         
     #assert start is not None or end is not None, "Both start and end date should be provided"
     # if start and end is not provided, default to yesterday 9-10
-    if start and end is None:
+    if start is None and end is None:
         yesterday = date.today() - timedelta(days=1)
         start = datetime.combine(yesterday, datetime.min.time()).replace(hour=0).strftime('%Y%m%dT%H')
         end =  datetime.combine(yesterday, datetime.min.time()).replace(hour=23).strftime('%Y%m%dT%H')
