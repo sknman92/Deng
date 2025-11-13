@@ -44,6 +44,6 @@ def main_api_call(start: str = None, end: str = None):
 
 
 if __name__ == '__main__':
-    main_api_call()
+    main_api_call(start='20251113T00', end='20251113T23')
 
 
