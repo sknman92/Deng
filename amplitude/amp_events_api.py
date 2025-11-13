@@ -26,7 +26,7 @@ logger = logging.getLogger()
 @retry_custom_exceptions()
 def main_api_call(start: str = None, end: str = None):
         
-    assert start is not None and end is not None, "Both start and end date should be provided"
+    #assert start is not None or end is not None, "Both start and end date should be provided"
     # if start and end is not provided, default to yesterday 9-10
     if start and end is None:
         yesterday = date.today() - timedelta(days=1)
