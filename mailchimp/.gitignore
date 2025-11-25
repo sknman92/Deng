@@ -1,0 +1,4 @@
+data/
+.env
+amp.log
+.venv/

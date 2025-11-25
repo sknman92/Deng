@@ -25,7 +25,7 @@ def bike_load():
         files = os.listdir('data/')
         
         # collating all files in directory
-        file_list = [os.path.join('data/', file) for file in files if file.endswith('.json')]
+        file_list = [file for file in files if file.endswith('.json')]
 
         num_files = len(file_list)
         # check that there is file        
@@ -33,7 +33,8 @@ def bike_load():
 
             # uploading and removing file
             for file in file_list:
-                s3_filename = os.path.join('python-import', file)
+                #s3_filename = os.path.join('python-import', file)
+                s3_filename = file
                 s3_client.upload_file(file, bucket, s3_filename)
                 os.remove(file)
 
@@ -48,4 +49,3 @@ def bike_load():
 
 if __name__ == '__main__':
     bike_load()
-
