@@ -1,11 +1,22 @@
-# Amplitude Extract and Load Pipeline  
+# Amplitude and Mailchimp ELT Project  
+This project extract, loads, and transforms data from the Amplitude and Mailchimp APIs. The end goal is to use datasets from both to analyze 
+user engagement with The Information Lab's website and email campaigns.
 
 ## Extract
+### Amplitude
 1. Connect to the Amplitude Export and Dashboard API. 
 2. Download event data for a given time range as a `.zip` file.
 3. Extract `.gz` JSON files from the zip.
 4. Retry API calls in case of transient errors (status codes 408 or 500).
 
+### Mailchimp
+1. Connect to the Mailchimp API using an API key.
+2. Download campaign or list data for a given list_id or campaign_id.
+3. Handle paginated responses to collect all members or click details.
+4. Transform API JSON responses into a structured format (e.g., pandas DataFrame).
+5. Retry API calls in case of transient errors (e.g., network issues or rate limits).
+6. Save processed data locally or to a storage location as CSV files.
+   
 ## Load  
 1. Upload local JSON files (e.g., from `data/` folder) into an Amazon S3 bucket under folders `python-import/events/` and `python-import/list/`.  
 2. List existing event files in S3 to determine which hourly time-slots are *already* present.  
