@@ -2,3 +2,5 @@ data/
 .env
 amp.log
 .venv/
+test.json
+test.py
