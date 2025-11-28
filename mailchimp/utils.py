@@ -23,10 +23,10 @@ logger = logging.getLogger()
 
 ########### loading env ###########
 load_dotenv(override=True)
-API_KEY = os.getenv('API_KEY')
-aws_key = os.getenv('AWS_ACCESS_KEY')
-aws_secret_key = os.getenv('AWS_SECRET_KEY')
-bucket=os.getenv('AWS_BUCKET_NAME')
+API_KEY = os.getenv('MC_API_KEY')
+aws_key = os.getenv('MC_AWS_ACCESS_KEY')
+aws_secret_key = os.getenv('MC_AWS_SECRET_KEY')
+bucket=os.getenv('MC_AWS_BUCKET_NAME')
 
 ########### retry decorator ###########
 def retry(retries = 3, sleep = 5):
