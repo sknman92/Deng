@@ -1,0 +1,404 @@
+2025-11-26 10:10:53,480 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-26 10:10:57,210 - INFO - root - Campaign a858a69c55 is associated with list fc1dab699f
+2025-11-26 10:10:58,138 - INFO - root - Campaign cc9e35ace5 is associated with list fc1dab699f
+2025-11-26 10:10:58,669 - INFO - root - Campaign 880fb0ec76 is associated with list fc1dab699f
+2025-11-26 10:10:59,211 - INFO - root - Campaign ad76f8c8dc is associated with list fc1dab699f
+2025-11-26 10:11:00,136 - INFO - root - Campaign 908a77c7ab is associated with list fc1dab699f
+2025-11-26 10:11:00,635 - INFO - root - Campaign 23cd12fe40 is associated with list fc1dab699f
+2025-11-26 10:11:01,189 - INFO - root - Campaign 29d1afccfc is associated with list fc1dab699f
+2025-11-26 10:11:01,687 - INFO - root - Campaign 9b87ffeb1f is associated with list fc1dab699f
+2025-11-26 10:11:02,193 - INFO - root - Campaign 6dbcb03a2a is associated with list fc1dab699f
+2025-11-26 10:11:02,738 - INFO - root - Campaign 7a31d423d9 is associated with list fc1dab699f
+2025-11-26 10:11:03,218 - INFO - root - Campaign d915f26e58 is associated with list fc1dab699f
+2025-11-26 10:11:03,711 - INFO - root - Campaign 151f559377 is associated with list fc1dab699f
+2025-11-26 10:11:44,472 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-26 10:11:44,989 - INFO - root - Campaign a858a69c55 is associated with list fc1dab699f
+2025-11-26 10:11:45,528 - INFO - root - Campaign cc9e35ace5 is associated with list fc1dab699f
+2025-11-26 10:11:46,113 - INFO - root - Campaign 880fb0ec76 is associated with list fc1dab699f
+2025-11-26 10:11:46,592 - INFO - root - Campaign ad76f8c8dc is associated with list fc1dab699f
+2025-11-26 10:11:47,061 - INFO - root - Campaign 908a77c7ab is associated with list fc1dab699f
+2025-11-26 10:11:47,661 - INFO - root - Campaign 23cd12fe40 is associated with list fc1dab699f
+2025-11-26 10:11:48,229 - INFO - root - Campaign 29d1afccfc is associated with list fc1dab699f
+2025-11-26 10:11:48,724 - INFO - root - Campaign 9b87ffeb1f is associated with list fc1dab699f
+2025-11-26 10:11:49,217 - INFO - root - Campaign 6dbcb03a2a is associated with list fc1dab699f
+2025-11-26 10:11:49,682 - INFO - root - Campaign 7a31d423d9 is associated with list fc1dab699f
+2025-11-26 10:11:50,180 - INFO - root - Campaign d915f26e58 is associated with list fc1dab699f
+2025-11-26 10:11:50,879 - INFO - root - Campaign 151f559377 is associated with list fc1dab699f
+2025-11-26 10:20:30,929 - INFO - root - Total clicks in campaign a858a69c55: 5
+2025-11-26 10:20:35,014 - INFO - root - Retrieved 10 members who clicked links in campaign a858a69c55
+2025-11-26 10:20:35,560 - INFO - root - Total clicks in campaign cc9e35ace5: 5
+2025-11-26 10:20:38,696 - INFO - root - Retrieved 10 members who clicked links in campaign cc9e35ace5
+2025-11-26 10:20:39,176 - INFO - root - Total clicks in campaign 880fb0ec76: 5
+2025-11-26 10:20:42,689 - INFO - root - Retrieved 10 members who clicked links in campaign 880fb0ec76
+2025-11-26 10:20:43,368 - INFO - root - Total clicks in campaign ad76f8c8dc: 5
+2025-11-26 10:20:46,286 - INFO - root - Retrieved 10 members who clicked links in campaign ad76f8c8dc
+2025-11-26 10:20:46,903 - INFO - root - Total clicks in campaign 908a77c7ab: 5
+2025-11-26 10:20:49,773 - INFO - root - Retrieved 10 members who clicked links in campaign 908a77c7ab
+2025-11-26 10:20:50,277 - INFO - root - Total clicks in campaign 23cd12fe40: 5
+2025-11-26 10:20:53,569 - INFO - root - Retrieved 10 members who clicked links in campaign 23cd12fe40
+2025-11-26 10:20:54,000 - INFO - root - Total clicks in campaign 29d1afccfc: 5
+2025-11-26 10:20:56,898 - INFO - root - Retrieved 10 members who clicked links in campaign 29d1afccfc
+2025-11-26 10:20:57,426 - INFO - root - Total clicks in campaign 9b87ffeb1f: 5
+2025-11-26 10:21:00,646 - INFO - root - Retrieved 10 members who clicked links in campaign 9b87ffeb1f
+2025-11-26 10:21:01,125 - INFO - root - Total clicks in campaign 6dbcb03a2a: 5
+2025-11-26 10:21:04,204 - INFO - root - Retrieved 10 members who clicked links in campaign 6dbcb03a2a
+2025-11-26 10:21:04,689 - INFO - root - Total clicks in campaign 7a31d423d9: 5
+2025-11-26 10:21:07,562 - INFO - root - Retrieved 10 members who clicked links in campaign 7a31d423d9
+2025-11-26 10:21:08,085 - INFO - root - Total clicks in campaign d915f26e58: 5
+2025-11-26 10:21:10,889 - INFO - root - Retrieved 10 members who clicked links in campaign d915f26e58
+2025-11-26 10:21:11,370 - INFO - root - Total clicks in campaign 151f559377: 5
+2025-11-26 10:21:14,219 - INFO - root - Retrieved 10 members who clicked links in campaign 151f559377
+2025-11-26 10:21:57,362 - INFO - root - Total clicks in campaign a858a69c55: 5
+2025-11-26 10:22:00,095 - INFO - root - Retrieved 10 members who clicked links in campaign a858a69c55
+2025-11-26 10:22:00,877 - INFO - root - Total clicks in campaign cc9e35ace5: 5
+2025-11-26 10:22:04,452 - INFO - root - Retrieved 10 members who clicked links in campaign cc9e35ace5
+2025-11-26 10:22:04,911 - INFO - root - Total clicks in campaign 880fb0ec76: 5
+2025-11-26 10:22:07,647 - INFO - root - Retrieved 10 members who clicked links in campaign 880fb0ec76
+2025-11-26 10:22:08,132 - INFO - root - Total clicks in campaign ad76f8c8dc: 5
+2025-11-26 10:22:10,995 - INFO - root - Retrieved 10 members who clicked links in campaign ad76f8c8dc
+2025-11-26 10:22:11,473 - INFO - root - Total clicks in campaign 908a77c7ab: 5
+2025-11-26 10:22:14,492 - INFO - root - Retrieved 10 members who clicked links in campaign 908a77c7ab
+2025-11-26 10:22:15,072 - INFO - root - Total clicks in campaign 23cd12fe40: 5
+2025-11-26 10:22:17,776 - INFO - root - Retrieved 10 members who clicked links in campaign 23cd12fe40
+2025-11-26 10:22:18,305 - INFO - root - Total clicks in campaign 29d1afccfc: 5
+2025-11-26 10:22:21,108 - INFO - root - Retrieved 10 members who clicked links in campaign 29d1afccfc
+2025-11-26 10:22:21,577 - INFO - root - Total clicks in campaign 9b87ffeb1f: 5
+2025-11-26 10:22:24,408 - INFO - root - Retrieved 10 members who clicked links in campaign 9b87ffeb1f
+2025-11-26 10:22:24,923 - INFO - root - Total clicks in campaign 6dbcb03a2a: 5
+2025-11-26 10:22:27,608 - INFO - root - Retrieved 10 members who clicked links in campaign 6dbcb03a2a
+2025-11-26 10:22:28,056 - INFO - root - Total clicks in campaign 7a31d423d9: 5
+2025-11-26 10:22:30,739 - INFO - root - Retrieved 10 members who clicked links in campaign 7a31d423d9
+2025-11-26 10:22:31,207 - INFO - root - Total clicks in campaign d915f26e58: 5
+2025-11-26 10:22:34,211 - INFO - root - Retrieved 10 members who clicked links in campaign d915f26e58
+2025-11-26 10:22:34,696 - INFO - root - Total clicks in campaign 151f559377: 5
+2025-11-26 10:22:37,490 - INFO - root - Retrieved 10 members who clicked links in campaign 151f559377
+2025-11-26 10:22:45,320 - INFO - root - Saving data to data/clicksmail_chimp_data_2025-11-26_10-11-08.csv
+2025-11-26 10:22:55,048 - INFO - root - Saving data to data/clicks/mail_chimp_data_2025-11-26_10-11-08.csv
+2025-11-26 10:24:05,173 - INFO - root - Saving data to data/clicks//data_2025-11-26_10-11-08.csv
+2025-11-26 10:28:21,414 - INFO - root - Saving data to data/clicks//clicks_2025-11-26_10-11-08.csv
+2025-11-26 11:58:45,666 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-26 12:12:46,445 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-26 12:12:50,122 - INFO - root - Campaign a858a69c55 is associated with list fc1dab699f
+2025-11-26 12:12:50,847 - INFO - root - Campaign cc9e35ace5 is associated with list fc1dab699f
+2025-11-26 12:12:51,484 - INFO - root - Campaign 880fb0ec76 is associated with list fc1dab699f
+2025-11-26 12:12:52,287 - INFO - root - Campaign ad76f8c8dc is associated with list fc1dab699f
+2025-11-26 12:12:52,999 - INFO - root - Campaign 908a77c7ab is associated with list fc1dab699f
+2025-11-26 12:12:53,614 - INFO - root - Campaign 23cd12fe40 is associated with list fc1dab699f
+2025-11-26 12:12:54,331 - INFO - root - Campaign 29d1afccfc is associated with list fc1dab699f
+2025-11-26 12:12:55,031 - INFO - root - Campaign 9b87ffeb1f is associated with list fc1dab699f
+2025-11-26 12:12:55,612 - INFO - root - Campaign 6dbcb03a2a is associated with list fc1dab699f
+2025-11-26 12:12:56,271 - INFO - root - Campaign 7a31d423d9 is associated with list fc1dab699f
+2025-11-26 12:12:56,987 - INFO - root - Campaign d915f26e58 is associated with list fc1dab699f
+2025-11-26 12:12:57,607 - INFO - root - Campaign 151f559377 is associated with list fc1dab699f
+2025-11-26 12:24:42,055 - INFO - root - Retrieved 17470 of 17470 members from list fc1dab699f
+2025-11-26 12:26:15,896 - INFO - root - Total clicks in campaign a858a69c55: 5
+2025-11-26 12:26:23,486 - INFO - root - Retrieved 95 members who clicked links in campaign a858a69c55
+2025-11-26 12:26:23,938 - INFO - root - Total clicks in campaign cc9e35ace5: 5
+2025-11-26 12:26:29,953 - INFO - root - Retrieved 95 members who clicked links in campaign cc9e35ace5
+2025-11-26 12:26:30,404 - INFO - root - Total clicks in campaign 880fb0ec76: 5
+2025-11-26 12:26:37,133 - INFO - root - Retrieved 95 members who clicked links in campaign 880fb0ec76
+2025-11-26 12:26:37,580 - INFO - root - Total clicks in campaign ad76f8c8dc: 5
+2025-11-26 12:26:44,337 - INFO - root - Retrieved 95 members who clicked links in campaign ad76f8c8dc
+2025-11-26 12:26:44,822 - INFO - root - Total clicks in campaign 908a77c7ab: 5
+2025-11-26 12:27:03,534 - INFO - root - Retrieved 95 members who clicked links in campaign 908a77c7ab
+2025-11-26 12:27:04,116 - INFO - root - Total clicks in campaign 23cd12fe40: 5
+2025-11-26 12:27:13,810 - INFO - root - Retrieved 95 members who clicked links in campaign 23cd12fe40
+2025-11-26 12:27:14,289 - INFO - root - Total clicks in campaign 29d1afccfc: 5
+2025-11-26 12:27:21,353 - INFO - root - Retrieved 95 members who clicked links in campaign 29d1afccfc
+2025-11-26 12:27:22,289 - INFO - root - Total clicks in campaign 9b87ffeb1f: 5
+2025-11-26 12:27:30,256 - INFO - root - Retrieved 95 members who clicked links in campaign 9b87ffeb1f
+2025-11-26 12:27:31,123 - INFO - root - Total clicks in campaign 6dbcb03a2a: 5
+2025-11-26 12:27:39,571 - INFO - root - Retrieved 95 members who clicked links in campaign 6dbcb03a2a
+2025-11-26 12:27:40,398 - INFO - root - Total clicks in campaign 7a31d423d9: 5
+2025-11-26 12:27:50,995 - INFO - root - Retrieved 95 members who clicked links in campaign 7a31d423d9
+2025-11-26 12:27:51,822 - INFO - root - Total clicks in campaign d915f26e58: 5
+2025-11-26 12:28:00,697 - INFO - root - Retrieved 95 members who clicked links in campaign d915f26e58
+2025-11-26 12:28:01,548 - INFO - root - Total clicks in campaign 151f559377: 5
+2025-11-26 12:28:11,656 - INFO - root - Retrieved 95 members who clicked links in campaign 151f559377
+2025-11-26 13:33:13,150 - INFO - root - Saving data to data/clicks//clicks_2025-11-26_12-13-02.csv
+2025-11-26 13:40:13,849 - INFO - root - Saving data to data/members//members_2025-11-26_12-13-02.csv
+2025-11-26 13:40:14,365 - INFO - root - Saving data to data/clicks//clicks_2025-11-26_12-13-02.csv
+2025-11-27 10:16:29,971 - INFO - root - Retrieved 25 members who clicked links in campaign 7a31d423d9
+2025-11-27 10:19:10,475 - INFO - root - Retrieved 25 members who clicked links in campaign 7a31d423d9
+2025-11-27 10:37:48,916 - INFO - root - Retrieved 108 members who clicked links 544 times in campaign 7a31d423d9
+2025-11-27 11:06:13,948 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 11:06:16,969 - INFO - root - Successfully retrieved len[{'campaign_id': '151f559377', 'campaign_title': 'November 19, 2025 - String Manipulation with Regex', 'emails_sent': 9083, 'unsubscribed': 24, 'abuse_reports': 1, 'bounces': {'hard_bounces': 22, 'soft_bounces': 54, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 3988, 'clicks': 659, 'last_open': '2025-11-27T10:52:36+00:00', 'last_click': '2025-11-18T02:58:03+00:00'}, {'campaign_id': 'd915f26e58', 'campaign_title': 'November 13, 2025 - Tableau Server Fundamentals', 'emails_sent': 9126, 'unsubscribed': 21, 'abuse_reports': 0, 'bounces': {'hard_bounces': 24, 'soft_bounces': 190, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 5725, 'clicks': 7578, 'last_open': '2025-11-27T09:32:09+00:00', 'last_click': '2025-11-15T08:44:22+00:00'}, {'campaign_id': '7a31d423d9', 'campaign_title': 'October 22, 2025 - Multi-Row & Multi-Field', 'emails_sent': 9190, 'unsubscribed': 45, 'abuse_reports': 0, 'bounces': {'hard_bounces': 13, 'soft_bounces': 52, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 4305, 'clicks': 544, 'last_open': '2025-11-26T12:46:22+00:00', 'last_click': '2025-10-23T09:00:31+00:00'}, {'campaign_id': '6dbcb03a2a', 'campaign_title': 'October 16, 2025 - Intro to Sets', 'emails_sent': 9241, 'unsubscribed': 35, 'abuse_reports': 0, 'bounces': {'hard_bounces': 25, 'soft_bounces': 54, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 4309, 'clicks': 701, 'last_open': '2025-11-26T12:46:23+00:00', 'last_click': '2025-10-28T20:50:17+00:00'}, {'campaign_id': '29d1afccfc', 'campaign_title': 'October 8 - Expanding Tableau with AI and MCP', 'emails_sent': 9294, 'unsubscribed': 31, 'abuse_reports': 0, 'bounces': {'hard_bounces': 26, 'soft_bounces': 89, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 5304, 'clicks': 550, 'last_open': '2025-11-25T10:50:40+00:00', 'last_click': '2025-11-10T09:02:02+00:00'}, {'campaign_id': '9b87ffeb1f', 'campaign_title': 'October 2025 Newsletter #13 A/B Test', 'emails_sent': 9394, 'unsubscribed': 41, 'abuse_reports': 0, 'bounces': {'hard_bounces': 65, 'soft_bounces': 93, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 6954, 'clicks': 3683, 'last_open': '2025-11-26T12:46:40+00:00', 'last_click': ''}, {'campaign_id': '908a77c7ab', 'campaign_title': 'September 17, 2025 - Detangling Date Functions', 'emails_sent': 9567, 'unsubscribed': 43, 'abuse_reports': 0, 'bounces': {'hard_bounces': 147, 'soft_bounces': 137, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 4951, 'clicks': 1350, 'last_open': '2025-11-26T17:27:04+00:00', 'last_click': '2025-09-27T14:42:52+00:00'}, {'campaign_id': 'ad76f8c8dc', 'campaign_title': 'September 2025 Newsletter #12 A/B Test', 'emails_sent': 9658, 'unsubscribed': 64, 'abuse_reports': 1, 'bounces': {'hard_bounces': 24, 'soft_bounces': 268, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 7645, 'clicks': 4369, 'last_open': '2025-11-24T17:00:51+00:00', 'last_click': ''}, {'campaign_id': '23cd12fe40', 'campaign_title': 'Tableau Next Hackathon', 'emails_sent': 9726, 'unsubscribed': 41, 'abuse_reports': 0, 'bounces': {'hard_bounces': 31, 'soft_bounces': 335, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 5038, 'clicks': 3146, 'last_open': '2025-11-25T10:42:38+00:00', 'last_click': '2025-09-17T08:31:13+00:00'}, {'campaign_id': '880fb0ec76', 'campaign_title': 'August 2025 Newsletter #11 A/B Test', 'emails_sent': 9825, 'unsubscribed': 72, 'abuse_reports': 0, 'bounces': {'hard_bounces': 37, 'soft_bounces': 281, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 6431, 'clicks': 1740, 'last_open': '2025-11-21T09:22:21+00:00', 'last_click': ''}, {'campaign_id': 'cc9e35ace5', 'campaign_title': 'July 2025 - Newsletter #10', 'emails_sent': 9919, 'unsubscribed': 56, 'abuse_reports': 2, 'bounces': {'hard_bounces': 48, 'soft_bounces': 293, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 6248, 'clicks': 822, 'last_open': '2025-11-26T13:45:28+00:00', 'last_click': ''}, {'campaign_id': 'a858a69c55', 'campaign_title': 'dbt Upcoming Events June 2025', 'emails_sent': 75, 'unsubscribed': 0, 'abuse_reports': 0, 'bounces': {'hard_bounces': 0, 'soft_bounces': 3, 'syntax_errors': 0}, 'forwards': {'forwards_count': 0, 'forwards_opens': 0}, 'opens': 68, 'clicks': 11, 'last_open': '2025-08-14T08:31:01+00:00', 'last_click': '2025-06-11T13:30:07+00:00'}] campaign reports
+2025-11-27 11:07:17,401 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 11:07:25,101 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 11:07:26,666 - INFO - root - Successfully retrieved len(12 campaign reports
+2025-11-27 11:07:43,533 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 11:07:45,809 - INFO - root - Successfully retrieved 12 campaign reports
+2025-11-27 11:07:58,450 - INFO - root - Campaign a858a69c55 is associated with list fc1dab699f
+2025-11-27 11:07:59,124 - INFO - root - Campaign cc9e35ace5 is associated with list fc1dab699f
+2025-11-27 11:07:59,813 - INFO - root - Campaign 880fb0ec76 is associated with list fc1dab699f
+2025-11-27 11:08:00,340 - INFO - root - Campaign ad76f8c8dc is associated with list fc1dab699f
+2025-11-27 11:08:00,924 - INFO - root - Campaign 908a77c7ab is associated with list fc1dab699f
+2025-11-27 11:08:01,491 - INFO - root - Campaign 23cd12fe40 is associated with list fc1dab699f
+2025-11-27 11:08:02,075 - INFO - root - Campaign 29d1afccfc is associated with list fc1dab699f
+2025-11-27 11:08:02,739 - INFO - root - Campaign 9b87ffeb1f is associated with list fc1dab699f
+2025-11-27 11:08:03,273 - INFO - root - Campaign 6dbcb03a2a is associated with list fc1dab699f
+2025-11-27 11:08:03,813 - INFO - root - Campaign 7a31d423d9 is associated with list fc1dab699f
+2025-11-27 11:08:04,313 - INFO - root - Campaign d915f26e58 is associated with list fc1dab699f
+2025-11-27 11:08:04,861 - INFO - root - Campaign 151f559377 is associated with list fc1dab699f
+2025-11-27 11:19:06,280 - INFO - root - Retrieved 17470 of 17470 members from list fc1dab699f
+2025-11-27 11:21:41,280 - INFO - root - Successfully retrieved 12 campaign reports
+2025-11-27 11:30:42,739 - INFO - root - Saving data to data/members//members_2025-11-27_11-08-11.csv
+2025-11-27 11:30:44,635 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_11-08-11.csv
+2025-11-27 11:30:47,289 - INFO - root - Saving data to data/campaigns//campaigns_2025-11-27_11-08-11.csv
+2025-11-27 11:30:59,129 - INFO - root - Saving data to data/campaigns//campaigns_2025-11-27_11-08-11.csv
+2025-11-27 11:43:57,990 - INFO - root - Saving data to data/email_activity//email_activity_2025-11-27_11-08-11.csv
+2025-11-27 12:23:54,593 - INFO - root - Saving data to data/email_activity//email_activity_2025-11-27_11-08-11.csv
+2025-11-27 13:27:38,462 - INFO - root - Saving data to data/email_activity//email_activity_2025-11-27_11-08-11.csv
+2025-11-27 13:35:28,608 - INFO - root - Total clicks in campaign a858a69c55: 4
+2025-11-27 13:35:33,280 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 13:35:33,763 - INFO - root - Total clicks in campaign cc9e35ace5: 0
+2025-11-27 13:36:40,356 - INFO - root - Total clicks in campaign 7a31d423d9: 0
+2025-11-27 13:36:49,274 - INFO - root - Total clicks in campaign 7a31d423d9: 0
+2025-11-27 13:37:13,266 - INFO - root - Total clicks in campaign 880fb0ec76: 0
+2025-11-27 13:39:03,739 - INFO - root - Total clicks in campaign a858a69c55: 0
+2025-11-27 13:39:03,739 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign a858a69c55
+2025-11-27 13:39:04,221 - INFO - root - Total clicks in campaign cc9e35ace5: 0
+2025-11-27 13:39:04,221 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 13:39:04,662 - INFO - root - Total clicks in campaign 880fb0ec76: 0
+2025-11-27 13:39:04,662 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 13:39:05,155 - INFO - root - Total clicks in campaign ad76f8c8dc: 0
+2025-11-27 13:39:05,157 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 13:39:05,595 - INFO - root - Total clicks in campaign 908a77c7ab: 0
+2025-11-27 13:39:05,595 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 908a77c7ab
+2025-11-27 13:39:06,039 - INFO - root - Total clicks in campaign 23cd12fe40: 0
+2025-11-27 13:39:06,039 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 23cd12fe40
+2025-11-27 13:39:06,507 - INFO - root - Total clicks in campaign 29d1afccfc: 0
+2025-11-27 13:39:06,507 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 29d1afccfc
+2025-11-27 13:39:06,954 - INFO - root - Total clicks in campaign 9b87ffeb1f: 0
+2025-11-27 13:39:06,954 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 9b87ffeb1f
+2025-11-27 13:39:07,381 - INFO - root - Total clicks in campaign 6dbcb03a2a: 0
+2025-11-27 13:39:07,381 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 6dbcb03a2a
+2025-11-27 13:39:07,966 - INFO - root - Total clicks in campaign 7a31d423d9: 0
+2025-11-27 13:39:07,966 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 7a31d423d9
+2025-11-27 13:39:08,433 - INFO - root - Total clicks in campaign d915f26e58: 0
+2025-11-27 13:39:08,434 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign d915f26e58
+2025-11-27 13:39:08,856 - INFO - root - Total clicks in campaign 151f559377: 0
+2025-11-27 13:39:08,858 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 151f559377
+2025-11-27 13:39:35,780 - INFO - root - Total clicks in campaign a858a69c55: 4
+2025-11-27 13:39:39,945 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 13:39:40,392 - INFO - root - Total clicks in campaign cc9e35ace5: 0
+2025-11-27 13:39:40,392 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 13:39:40,841 - INFO - root - Total clicks in campaign 880fb0ec76: 0
+2025-11-27 13:39:40,842 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 13:39:41,324 - INFO - root - Total clicks in campaign ad76f8c8dc: 0
+2025-11-27 13:39:41,325 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 13:39:41,785 - INFO - root - Total clicks in campaign 908a77c7ab: 5
+2025-11-27 13:39:53,887 - INFO - root - Retrieved 276 members who clicked links 1350 times in campaign 908a77c7ab
+2025-11-27 13:39:54,374 - INFO - root - Total clicks in campaign 23cd12fe40: 7
+2025-11-27 13:40:29,958 - INFO - root - Retrieved 544 members who clicked links 3146 times in campaign 23cd12fe40
+2025-11-27 13:40:30,487 - INFO - root - Total clicks in campaign 29d1afccfc: 5
+2025-11-27 13:40:39,564 - INFO - root - Retrieved 154 members who clicked links 550 times in campaign 29d1afccfc
+2025-11-27 13:40:39,985 - INFO - root - Total clicks in campaign 9b87ffeb1f: 0
+2025-11-27 13:40:39,985 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 9b87ffeb1f
+2025-11-27 13:40:40,426 - INFO - root - Total clicks in campaign 6dbcb03a2a: 5
+2025-11-27 13:40:50,438 - INFO - root - Retrieved 172 members who clicked links 701 times in campaign 6dbcb03a2a
+2025-11-27 13:40:50,879 - INFO - root - Total clicks in campaign 7a31d423d9: 5
+2025-11-27 13:40:59,971 - INFO - root - Retrieved 108 members who clicked links 544 times in campaign 7a31d423d9
+2025-11-27 13:41:00,547 - INFO - root - Total clicks in campaign d915f26e58: 5
+2025-11-27 13:41:43,861 - INFO - root - Retrieved 1030 members who clicked links 5531 times in campaign d915f26e58
+2025-11-27 13:41:44,371 - INFO - root - Total clicks in campaign 151f559377: 5
+2025-11-27 13:41:55,051 - INFO - root - Retrieved 129 members who clicked links 659 times in campaign 151f559377
+2025-11-27 13:45:22,661 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_11-08-11.csv
+2025-11-27 15:31:58,237 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 15:31:59,284 - INFO - root - Successfully retrieved 12 campaign reports
+2025-11-27 15:31:59,886 - INFO - root - Campaign a858a69c55 is associated with list fc1dab699f
+2025-11-27 15:32:00,565 - INFO - root - Campaign cc9e35ace5 is associated with list fc1dab699f
+2025-11-27 15:32:01,237 - INFO - root - Campaign 880fb0ec76 is associated with list fc1dab699f
+2025-11-27 15:32:02,042 - INFO - root - Campaign ad76f8c8dc is associated with list fc1dab699f
+2025-11-27 15:32:02,776 - INFO - root - Campaign 908a77c7ab is associated with list fc1dab699f
+2025-11-27 15:32:03,553 - INFO - root - Campaign 23cd12fe40 is associated with list fc1dab699f
+2025-11-27 15:32:04,402 - INFO - root - Campaign 29d1afccfc is associated with list fc1dab699f
+2025-11-27 15:32:05,109 - INFO - root - Campaign 9b87ffeb1f is associated with list fc1dab699f
+2025-11-27 15:32:27,502 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 15:32:28,567 - INFO - root - Successfully retrieved 12 campaign reports
+2025-11-27 15:32:29,262 - INFO - root - Campaign a858a69c55 is associated with list fc1dab699f
+2025-11-27 15:32:30,034 - INFO - root - Campaign cc9e35ace5 is associated with list fc1dab699f
+2025-11-27 15:32:30,726 - INFO - root - Campaign 880fb0ec76 is associated with list fc1dab699f
+2025-11-27 15:32:31,430 - INFO - root - Campaign ad76f8c8dc is associated with list fc1dab699f
+2025-11-27 15:32:32,097 - INFO - root - Campaign 908a77c7ab is associated with list fc1dab699f
+2025-11-27 15:32:32,812 - INFO - root - Campaign 23cd12fe40 is associated with list fc1dab699f
+2025-11-27 15:32:33,408 - INFO - root - Campaign 29d1afccfc is associated with list fc1dab699f
+2025-11-27 15:32:34,117 - INFO - root - Campaign 9b87ffeb1f is associated with list fc1dab699f
+2025-11-27 15:32:34,856 - INFO - root - Campaign 6dbcb03a2a is associated with list fc1dab699f
+2025-11-27 15:32:35,612 - INFO - root - Campaign 7a31d423d9 is associated with list fc1dab699f
+2025-11-27 15:32:36,342 - INFO - root - Campaign d915f26e58 is associated with list fc1dab699f
+2025-11-27 15:32:37,170 - INFO - root - Campaign 151f559377 is associated with list fc1dab699f
+2025-11-27 15:32:51,442 - INFO - root - Total urls clicked in campaign a858a69c55: 4
+2025-11-27 15:47:51,807 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 15:48:05,227 - INFO - root - Total urls clicked in campaign cc9e35ace5: 4
+2025-11-27 15:54:53,237 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign cc9e35ace5
+2025-11-27 15:55:07,347 - INFO - root - Total urls clicked in campaign 880fb0ec76: 4
+2025-11-27 15:58:08,393 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 15:58:09,220 - INFO - root - Successfully retrieved 12 campaign reports
+2025-11-27 15:58:09,974 - INFO - root - Campaign a858a69c55 is associated with list fc1dab699f
+2025-11-27 15:58:10,593 - INFO - root - Campaign cc9e35ace5 is associated with list fc1dab699f
+2025-11-27 15:58:11,253 - INFO - root - Campaign 880fb0ec76 is associated with list fc1dab699f
+2025-11-27 15:58:11,913 - INFO - root - Campaign ad76f8c8dc is associated with list fc1dab699f
+2025-11-27 15:58:12,588 - INFO - root - Campaign 908a77c7ab is associated with list fc1dab699f
+2025-11-27 15:58:13,323 - INFO - root - Campaign 23cd12fe40 is associated with list fc1dab699f
+2025-11-27 15:58:14,070 - INFO - root - Campaign 29d1afccfc is associated with list fc1dab699f
+2025-11-27 15:58:14,737 - INFO - root - Campaign 9b87ffeb1f is associated with list fc1dab699f
+2025-11-27 15:58:15,437 - INFO - root - Campaign 6dbcb03a2a is associated with list fc1dab699f
+2025-11-27 15:58:16,084 - INFO - root - Campaign 7a31d423d9 is associated with list fc1dab699f
+2025-11-27 15:58:19,077 - INFO - root - Campaign d915f26e58 is associated with list fc1dab699f
+2025-11-27 15:58:19,811 - INFO - root - Campaign 151f559377 is associated with list fc1dab699f
+2025-11-27 15:58:25,112 - INFO - root - Total urls clicked in campaign a858a69c55: 4
+2025-11-27 15:59:26,727 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 15:59:37,027 - INFO - root - Total urls clicked in campaign cc9e35ace5: 0
+2025-11-27 15:59:41,123 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 15:59:53,324 - INFO - root - Total urls clicked in campaign 880fb0ec76: 0
+2025-11-27 15:59:56,116 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 17:01:15,122 - INFO - root - Total urls clicked in campaign ad76f8c8dc: 0
+2025-11-27 17:01:20,472 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 17:01:22,632 - INFO - root - Total urls clicked in campaign 908a77c7ab: 5
+2025-11-27 17:03:44,762 - INFO - root - Total urls clicked in campaign d915f26e58: 5
+2025-11-27 17:17:13,201 - INFO - root - Successfully retrieved 12 campaigns
+2025-11-27 17:17:21,271 - INFO - root - Total urls clicked in campaign a858a69c55: 5
+2025-11-27 17:17:31,757 - INFO - root - Total urls clicked in campaign a858a69c55: 5
+2025-11-27 17:18:10,119 - INFO - root - Total urls clicked in campaign a858a69c55: 4
+2025-11-27 17:19:28,585 - INFO - root - Total urls clicked in campaign a858a69c55: 4
+2025-11-27 17:20:03,024 - INFO - root - Total urls clicked in campaign a858a69c55: 4
+2025-11-27 17:20:09,345 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign a858a69c55
+2025-11-27 17:20:09,838 - INFO - root - Total urls clicked in campaign cc9e35ace5: 0
+2025-11-27 17:20:09,838 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 17:20:10,292 - INFO - root - Total urls clicked in campaign 880fb0ec76: 0
+2025-11-27 17:20:10,292 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 17:20:10,706 - INFO - root - Total urls clicked in campaign ad76f8c8dc: 0
+2025-11-27 17:20:10,721 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 17:20:11,203 - INFO - root - Total urls clicked in campaign 908a77c7ab: 5
+2025-11-27 17:20:20,522 - INFO - root - Retrieved 203 members who clicked links 259 times in campaign 908a77c7ab
+2025-11-27 17:20:20,985 - INFO - root - Total urls clicked in campaign 23cd12fe40: 7
+2025-11-27 17:20:39,975 - INFO - root - Retrieved 488 members who clicked links 612 times in campaign 23cd12fe40
+2025-11-27 17:20:40,868 - INFO - root - Total urls clicked in campaign 29d1afccfc: 5
+2025-11-27 17:20:48,714 - INFO - root - Retrieved 96 members who clicked links 107 times in campaign 29d1afccfc
+2025-11-27 17:20:49,162 - INFO - root - Total urls clicked in campaign 9b87ffeb1f: 0
+2025-11-27 17:20:49,162 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 9b87ffeb1f
+2025-11-27 17:20:49,691 - INFO - root - Total urls clicked in campaign 6dbcb03a2a: 5
+2025-11-27 17:20:57,548 - INFO - root - Retrieved 96 members who clicked links 101 times in campaign 6dbcb03a2a
+2025-11-27 17:20:58,064 - INFO - root - Total urls clicked in campaign 7a31d423d9: 5
+2025-11-27 17:21:05,936 - INFO - root - Retrieved 81 members who clicked links 93 times in campaign 7a31d423d9
+2025-11-27 17:21:06,394 - INFO - root - Total urls clicked in campaign d915f26e58: 5
+2025-11-27 17:21:29,642 - INFO - root - Retrieved 1354 members who clicked links 1514 times in campaign d915f26e58
+2025-11-27 17:21:30,224 - INFO - root - Total urls clicked in campaign 151f559377: 5
+2025-11-27 17:21:38,955 - INFO - root - Retrieved 94 members who clicked links 104 times in campaign 151f559377
+2025-11-27 17:22:30,667 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_17-17-13.csv
+2025-11-27 17:25:29,918 - INFO - root - Successfully retrieved 12 campaign reports
+2025-11-27 17:39:49,992 - INFO - root - Total urls clicked in campaign d915f26e58: 5
+2025-11-27 17:40:07,118 - INFO - root - Retrieved 1354 members who clicked links 1514 times in campaign d915f26e58
+2025-11-27 17:40:29,601 - INFO - root - Total urls in campaign d915f26e58: 5
+2025-11-27 17:40:48,036 - INFO - root - Retrieved 1354 members who clicked links 1514 times in campaign d915f26e58
+2025-11-27 17:45:09,484 - INFO - root - Total urls in campaign d915f26e58: 5
+2025-11-27 17:46:16,446 - INFO - root - Retrieved 1394 members who clicked links 7578 times in campaign d915f26e58
+2025-11-27 17:46:46,768 - INFO - root - Total urls in campaign a858a69c55: 4
+2025-11-27 17:46:52,608 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 17:46:53,106 - INFO - root - Total urls in campaign cc9e35ace5: 0
+2025-11-27 17:46:53,106 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 17:46:53,601 - INFO - root - Total urls in campaign 880fb0ec76: 0
+2025-11-27 17:46:53,601 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 17:46:54,229 - INFO - root - Total urls in campaign ad76f8c8dc: 0
+2025-11-27 17:46:54,229 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 17:46:54,699 - INFO - root - Total urls in campaign 908a77c7ab: 5
+2025-11-27 17:47:11,157 - INFO - root - Retrieved 276 members who clicked links 1350 times in campaign 908a77c7ab
+2025-11-27 17:47:11,610 - INFO - root - Total urls in campaign 23cd12fe40: 7
+2025-11-27 17:47:44,948 - INFO - root - Retrieved 544 members who clicked links 3146 times in campaign 23cd12fe40
+2025-11-27 17:47:45,575 - INFO - root - Total urls in campaign 29d1afccfc: 5
+2025-11-27 17:47:57,447 - INFO - root - Retrieved 154 members who clicked links 550 times in campaign 29d1afccfc
+2025-11-27 17:47:57,895 - INFO - root - Total urls in campaign 9b87ffeb1f: 0
+2025-11-27 17:47:57,895 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 9b87ffeb1f
+2025-11-27 17:47:58,349 - INFO - root - Total urls in campaign 6dbcb03a2a: 5
+2025-11-27 17:48:10,885 - INFO - root - Retrieved 172 members who clicked links 701 times in campaign 6dbcb03a2a
+2025-11-27 17:48:11,415 - INFO - root - Total urls in campaign 7a31d423d9: 5
+2025-11-27 17:48:24,311 - INFO - root - Retrieved 108 members who clicked links 544 times in campaign 7a31d423d9
+2025-11-27 17:48:24,797 - INFO - root - Total urls in campaign d915f26e58: 5
+2025-11-27 17:49:35,633 - INFO - root - Retrieved 1394 members who clicked links 7578 times in campaign d915f26e58
+2025-11-27 17:49:36,168 - INFO - root - Total urls in campaign 151f559377: 5
+2025-11-27 17:49:50,175 - INFO - root - Retrieved 129 members who clicked links 659 times in campaign 151f559377
+2025-11-27 17:50:37,421 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_17-17-13.csv
+2025-11-27 18:43:40,465 - INFO - root - Successfully retrieved 12 campaign reports
+2025-11-27 18:43:45,899 - INFO - root - Saving data to data/campaigns//campaigns_2025-11-27_17-17-13.csv
+2025-11-27 19:33:39,124 - INFO - root - Total urls in campaign a858a69c55: 4
+2025-11-27 19:33:47,318 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 19:33:47,920 - INFO - root - Total urls in campaign cc9e35ace5: 0
+2025-11-27 19:33:47,931 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 19:33:48,634 - INFO - root - Total urls in campaign 880fb0ec76: 0
+2025-11-27 19:33:48,634 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 19:33:49,363 - INFO - root - Total urls in campaign ad76f8c8dc: 0
+2025-11-27 19:33:49,365 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 19:33:49,956 - INFO - root - Total urls in campaign 908a77c7ab: 5
+2025-11-27 19:34:15,811 - INFO - root - Retrieved 276 members who clicked links 1350 times in campaign 908a77c7ab
+2025-11-27 19:34:17,229 - INFO - root - Total urls in campaign 23cd12fe40: 7
+2025-11-27 19:34:55,942 - INFO - root - Retrieved 544 members who clicked links 3146 times in campaign 23cd12fe40
+2025-11-27 19:34:56,640 - INFO - root - Total urls in campaign 29d1afccfc: 5
+2025-11-27 19:35:10,469 - INFO - root - Retrieved 154 members who clicked links 550 times in campaign 29d1afccfc
+2025-11-27 19:35:11,179 - INFO - root - Total urls in campaign 9b87ffeb1f: 0
+2025-11-27 19:35:11,181 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 9b87ffeb1f
+2025-11-27 19:35:11,789 - INFO - root - Total urls in campaign 6dbcb03a2a: 5
+2025-11-27 19:35:29,875 - INFO - root - Retrieved 172 members who clicked links 701 times in campaign 6dbcb03a2a
+2025-11-27 19:35:30,417 - INFO - root - Total urls in campaign 7a31d423d9: 5
+2025-11-27 19:35:46,735 - INFO - root - Retrieved 108 members who clicked links 544 times in campaign 7a31d423d9
+2025-11-27 19:35:47,427 - INFO - root - Total urls in campaign d915f26e58: 5
+2025-11-27 19:37:12,755 - INFO - root - Retrieved 1394 members who clicked links 7578 times in campaign d915f26e58
+2025-11-27 19:37:13,314 - INFO - root - Total urls in campaign 151f559377: 5
+2025-11-27 19:37:29,339 - INFO - root - Retrieved 129 members who clicked links 659 times in campaign 151f559377
+2025-11-27 19:40:32,282 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_17-17-13.csv
+2025-11-27 19:43:29,044 - INFO - root - Total urls in campaign a858a69c55: 4
+2025-11-27 19:43:36,311 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 19:43:36,917 - INFO - root - Total urls in campaign cc9e35ace5: 0
+2025-11-27 19:43:36,931 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 19:43:37,561 - INFO - root - Total urls in campaign 880fb0ec76: 0
+2025-11-27 19:43:37,569 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 19:43:38,159 - INFO - root - Total urls in campaign ad76f8c8dc: 0
+2025-11-27 19:43:38,160 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 19:43:38,768 - INFO - root - Total urls in campaign 908a77c7ab: 5
+2025-11-27 19:43:58,338 - INFO - root - Retrieved 276 members who clicked links 1350 times in campaign 908a77c7ab
+2025-11-27 19:43:58,947 - INFO - root - Total urls in campaign 23cd12fe40: 7
+2025-11-27 19:44:36,744 - INFO - root - Retrieved 544 members who clicked links 3146 times in campaign 23cd12fe40
+2025-11-27 19:44:37,321 - INFO - root - Total urls in campaign 29d1afccfc: 5
+2025-11-27 19:44:50,724 - INFO - root - Retrieved 154 members who clicked links 550 times in campaign 29d1afccfc
+2025-11-27 19:44:51,367 - INFO - root - Total urls in campaign 9b87ffeb1f: 0
+2025-11-27 19:44:51,367 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 9b87ffeb1f
+2025-11-27 19:44:51,989 - INFO - root - Total urls in campaign 6dbcb03a2a: 5
+2025-11-27 19:45:06,634 - INFO - root - Retrieved 172 members who clicked links 701 times in campaign 6dbcb03a2a
+2025-11-27 19:45:07,246 - INFO - root - Total urls in campaign 7a31d423d9: 5
+2025-11-27 19:45:30,303 - INFO - root - Retrieved 108 members who clicked links 544 times in campaign 7a31d423d9
+2025-11-27 19:45:31,831 - INFO - root - Total urls in campaign d915f26e58: 5
+2025-11-27 19:47:02,438 - INFO - root - Retrieved 1394 members who clicked links 7578 times in campaign d915f26e58
+2025-11-27 19:47:03,982 - INFO - root - Total urls in campaign 151f559377: 5
+2025-11-27 19:47:33,595 - INFO - root - Retrieved 129 members who clicked links 659 times in campaign 151f559377
+2025-11-27 19:48:40,150 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_17-17-13.csv
+2025-11-27 19:49:13,555 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_17-17-13.csv
+2025-11-27 19:49:18,532 - INFO - root - Saving data to data/campaigns//campaigns_2025-11-27_17-17-13.csv
+2025-11-27 19:50:20,177 - INFO - root - Total urls in campaign a858a69c55: 4
+2025-11-27 19:50:28,672 - INFO - root - Retrieved 6 members who clicked links 11 times in campaign a858a69c55
+2025-11-27 19:50:29,292 - INFO - root - Total urls in campaign cc9e35ace5: 0
+2025-11-27 19:50:29,292 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign cc9e35ace5
+2025-11-27 19:50:29,903 - INFO - root - Total urls in campaign 880fb0ec76: 0
+2025-11-27 19:50:29,903 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 880fb0ec76
+2025-11-27 19:50:30,513 - INFO - root - Total urls in campaign ad76f8c8dc: 0
+2025-11-27 19:50:30,513 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign ad76f8c8dc
+2025-11-27 19:50:31,122 - INFO - root - Total urls in campaign 908a77c7ab: 5
+2025-11-27 19:50:59,534 - INFO - root - Retrieved 276 members who clicked links 1350 times in campaign 908a77c7ab
+2025-11-27 19:51:01,038 - INFO - root - Total urls in campaign 23cd12fe40: 7
+2025-11-27 19:51:50,939 - INFO - root - Retrieved 544 members who clicked links 3146 times in campaign 23cd12fe40
+2025-11-27 19:51:51,723 - INFO - root - Total urls in campaign 29d1afccfc: 5
+2025-11-27 19:52:06,466 - INFO - root - Retrieved 154 members who clicked links 550 times in campaign 29d1afccfc
+2025-11-27 19:52:07,183 - INFO - root - Total urls in campaign 9b87ffeb1f: 0
+2025-11-27 19:52:07,187 - INFO - root - Retrieved 0 members who clicked links 0 times in campaign 9b87ffeb1f
+2025-11-27 19:52:07,770 - INFO - root - Total urls in campaign 6dbcb03a2a: 5
+2025-11-27 19:52:22,471 - INFO - root - Retrieved 172 members who clicked links 701 times in campaign 6dbcb03a2a
+2025-11-27 19:52:23,467 - INFO - root - Total urls in campaign 7a31d423d9: 5
+2025-11-27 19:52:37,451 - INFO - root - Retrieved 108 members who clicked links 544 times in campaign 7a31d423d9
+2025-11-27 19:52:38,214 - INFO - root - Total urls in campaign d915f26e58: 5
+2025-11-27 19:53:59,201 - INFO - root - Retrieved 1394 members who clicked links 7578 times in campaign d915f26e58
+2025-11-27 19:54:00,696 - INFO - root - Total urls in campaign 151f559377: 5
+2025-11-27 19:54:26,774 - INFO - root - Retrieved 129 members who clicked links 659 times in campaign 151f559377
+2025-11-27 19:58:19,528 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_19-49-59.csv
+2025-11-27 20:03:08,574 - INFO - root - Saving data to data/email_activity//email_activity_2025-11-27_19-49-59.csv
+2025-11-27 20:19:06,496 - INFO - root - Saving data to data/clicks//clicks_2025-11-27_19-49-59.csv
+2025-11-27 20:19:21,884 - INFO - root - Saving data to data/email_activity//email_activity_2025-11-27_19-49-59.csv
+2025-11-27 20:42:53,931 - INFO - root - Saving data to data/campaigns//campaigns_2025-11-27_19-49-59.csv
