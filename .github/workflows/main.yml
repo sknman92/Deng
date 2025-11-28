@@ -1,32 +1,54 @@
-name: bike_point_ingestion
+name: amplitude_mailchimp
 
-on: 
-  # schedule:
-  # every five minutes
-    # - cron: '*/5 * * * *'
-  # allow the workflow to run manually
-  # workflow_dispatch:
+on:
+  workflow_dispatch: # allows manual triggering
+  schedule:
+    - cron: '40 11 * * *' # daily at 9am, like your Kestra trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: .env
+
     steps:
-      - name: Checkout the repo
-        uses: actions/checkout@v2
-  
-      - name: Set up python
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ Set up Python
+      - name: Set up Python 3.12
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-  
-      - name: Install requirements
+
+      # 3️⃣ Install base requirements (if any in root)
+      - name: Install root requirements
         run: pip install -r requirements.txt
-  
-      - name: Run python script
+
+      # 4️⃣ Run Amplitude scripts
+      - name: Run Amplitude scripts
+        working-directory: amplitude
+        run: |
+          pip install -r requirements.txt
+          mkdir -p data/zip
+          python amp_events_api.py
+          python amp_retry.py
         env:
-          aws_access_key: ${{secrets.AWS_ACCESS_KEY}}
-          aws_secret_key: ${{secrets.AWS_SECRET_KEY}}
-          bucket_name: ${{secrets.BUCKET_NAME}}
-        run: python combined_bike_api.py
-      
+          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
+          AMP_API_KEY: ${{ secrets.AMP_API_KEY }}
+          AMP_SECRET_KEY: ${{ secrets.AMP_SECRET_KEY }}
+
+      # 5️⃣ Run Mailchimp scripts
+      - name: Run Mailchimp scripts
+        working-directory: mailchimp
+        run: |
+          pip install -r requirements.txt
+          mkdir -p data
+          python api_call.py
+        env:
+          MC_API_KEY: ${{ secrets.MC_API_KEY }}
+          MC_AWS_ACCESS_KEY: ${{ secrets.MC_AWS_ACCESS_KEY }}
+          MC_AWS_SECRET_KEY: ${{ secrets.MC_AWS_SECRET_KEY }}
+          MC_AWS_REGION: ${{ secrets.MC_AWS_REGION }}
+          MC_AWS_BUCKET_NAME: ${{ secrets.MC_AWS_BUCKET_NAME }}
