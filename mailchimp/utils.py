@@ -96,7 +96,6 @@ def get_campaign_reports(extract_time, days_since = 180):
         
         df_campaigns = pd.DataFrame(campaigns_list)
         total_items = len(campaigns_list)
-  
         logger.info(f'Successfully retrieved {total_items} campaign reports')
         print(f'Successfully retrieved {total_items} campaign reports')
         return df_campaigns
